@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "patch": "node patch.cjs",
     "build": "npx parcel build"
   },
   "targets": {
