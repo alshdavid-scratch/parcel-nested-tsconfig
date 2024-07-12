@@ -1,0 +1,24 @@
+{
+  "name": "parcel-nested-tsconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "patch": "node patch.cjs",
+    "build": "npx parcel build"
+  },
+  "targets": {
+    "default": {
+      "source": "./src/index.html",
+      "distDir": "./dist"
+    }
+  },
+  "dependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "parcel": "canary",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  }
+}
